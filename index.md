@@ -1,37 +1,93 @@
 ## 欢迎来到玉玺博客
 
-You can use the [editor on GitHub](https://github.com/jhzr2017/syx/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<html>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<head>
 
-### Markdown
+<meta charset="UTF-8">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<title></title>
 
-```markdown
-Syntax highlighted code block
+<style type="text/css">
 
-# Header 1
-## Header 2
-### Header 3
+#container{
 
-- Bulleted
-- List
+width:1002px;
 
-1. Numbered
-2. List
+background-color:gray;
 
-**Bold** and _Italic_ and `Code` text
+}
 
-[Link](url) and ![Image](src)
-```
+#header{
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+height:120px;
 
-### Jekyll Themes
+background-color: aquamarine;
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jhzr2017/syx/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+}
 
-### Support or Contact
+#main{
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+height: 600px;
+
+background: darkgoldenrod;
+
+}
+
+#footer{
+
+height: 120px;
+
+background: yellowgreen;
+
+}
+
+#main-left{
+
+float: left;
+
+background: yellow;
+
+width: 700px;
+
+height: 100%;
+
+}
+
+#main-right{
+
+float: right;
+
+background: pink;
+
+width: 302px;
+
+height:100% ;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header"></div>
+
+<div id="main">
+
+<div id="main-left"></div>
+
+    <div id="main-right"></div>
+
+</div>
+
+<div id="footer"></div>
+
+</div>
+
+</body>
+
+</html>
